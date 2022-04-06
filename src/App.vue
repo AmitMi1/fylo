@@ -40,17 +40,17 @@ export default {
           txt: 'The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.'
         },
         {
-          imgUrl: 'https://res.cloudinary.com/amit-mizrahi/image/upload/v1649263797/icon-security_ofic3d.svg',
+          imgUrl: new URL('assets/images/icon-security.svg', import.meta.url).href,
           title: 'Security you can trust',
           txt: '2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.'
         },
         {
-          imgUrl: 'https://res.cloudinary.com/amit-mizrahi/image/upload/v1649263674/icon-collaboration_chjylw.svg',
+          imgUrl: new URL('assets/images/icon-collaboration.svg', import.meta.url).href,
           title: 'Real-time collaboration',
           txt: 'Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.'
         },
         {
-          imgUrl: 'https://res.cloudinary.com/amit-mizrahi/image/upload/v1649263665/icon-any-file_mzpfty.svg',
+          imgUrl: new URL('assets/images/icon-any-file.svg', import.meta.url).href,
           title: 'Store any type of file',
           txt: `Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.`
         },
@@ -58,19 +58,19 @@ export default {
       testimonialList: [
         {
         txt: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-       userImg: 'https://res.cloudinary.com/amit-mizrahi/image/upload/v1649263720/profile-1_hxaytz.jpg',
+       userImg: new URL('assets/images/profile-1.jpg', import.meta.url).href,
         fullname: 'Satish Patel',
         userTitle: 'Founder & CEO, Huddle'
         },
         {
         txt: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-       userImg: 'https://res.cloudinary.com/amit-mizrahi/image/upload/v1649263720/profile-2_rh0kxb.jpg',
+       userImg: new URL('assets/images/profile-2.jpg', import.meta.url).href,
         fullname: 'Bruce McKenzie',
         userTitle: 'Founder & CEO, Huddle'
         },
         {
         txt: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
-       userImg: 'https://res.cloudinary.com/amit-mizrahi/image/upload/v1649263720/profile-3_egp1y6.jpg',
+       userImg: new URL('assets/images/profile-3.jpg', import.meta.url).href,
         fullname: 'Iva Boyd',
         userTitle: 'Founder & CEO, Huddle'
         },
