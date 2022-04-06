@@ -5,6 +5,8 @@
    <amenity-list :amenities="amenityList"></amenity-list>
   <main-content></main-content>
   <testi-list :testimonialList="testimonialList"></testi-list>
+  <main-starter></main-starter>
+  <main-footer></main-footer>
   </section>
 </template>
 
@@ -14,6 +16,8 @@ import mainIntro from "./components/main-intro.vue"
 import amenityList from "./components/amenity-list.vue"
 import mainContent from "./components/main-content.vue"
 import testiList from "./components/testi-list.vue"
+import mainFooter from "./components/main-footer.vue"
+import mainStarter from "./components/main-starter.vue"
 
 
 export default {
@@ -23,13 +27,15 @@ export default {
     mainIntro,
     amenityList,
     mainContent,
-    testiList
+    testiList,
+    mainFooter,
+    mainStarter
   },
   data(){
     return{
       amenityList: [
         {
-          imgUrl: 'https://res.cloudinary.com/amit-mizrahi/image/upload/v1649263665/icon-access-anywhere_qdb4hv.svg',
+          imgUrl: new URL('assets/images/icon-access-anywhere.svg', import.meta.url).href,
           title: 'Access your files, anywhere',
           txt: 'The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.'
         },
