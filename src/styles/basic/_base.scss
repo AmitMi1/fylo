@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $clr-base;
+}
+
+body {
+  font-family: 'openSans';
+  background-color: $clr-main-bg;
+}
+
+html {
+  // font-size: 14px;
+}
+
+h1,
+h2.h3,
+h4 {
+  font-family: 'Railway';
+}
+
+p {
+  font-family: 'openSans';
+}
+
+button {
+  cursor: pointer;
+}
+
+.ml {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @media (max-width: 800px) {
+    max-width: 375px;
+  }
+}
+
+a {
+  font-family: 'Railway';
+  text-decoration: none;
+  // color: $clr-base;
+}

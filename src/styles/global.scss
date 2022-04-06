@@ -1,0 +1,20 @@
+/* SETUP  */
+@import "setup/functions";
+@import "setup/variables";
+@import "setup/mixins";
+@import "setup/typography";
+
+/* COMPONENTS */
+@import "components/main-header";
+@import "components/main-intro";
+@import "components/unique-amenity";
+@import "components/amenity-list";
+@import "components/main-content";
+@import "components/unique-testi";
+@import "components/testi-list";
+
+
+/* BASE */
+
+@import "basic/base";
+@import "basic/helpers";
